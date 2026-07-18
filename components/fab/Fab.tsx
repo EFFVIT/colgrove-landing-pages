@@ -1,6 +1,6 @@
 "use client";
 
-// RootLogic FAB for the Next.js LP fleet. Drop <Fab client="rhrli" /> once into
+// RootLogic FAB for the Next.js LP fleet. Drop <Fab client="colgrove" /> once into
 // the app's root layout (below the DniSwap mount). It fetches the client's config
 // from control at runtime and mounts the shadow-DOM widget on document.body, so
 // control edits go live within seconds with no redeploy. Renders nothing itself.

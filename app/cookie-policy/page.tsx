@@ -1,11 +1,11 @@
-const OG_IMAGE = 'https://vitalitymmg.com/wp-content/uploads/2026/06/rhrli-og-featured.png'
+const OG_IMAGE = ''
 
 export const metadata = {
-  title: 'Cookie Policy | RHRLI',
-  description: 'RHRLI cookie policy — how we use cookies and similar technologies on our website.',
+  title: 'Cookie Policy | Vinings Surgery',
+  description: 'Vinings Surgery cookie policy — how we use cookies and similar technologies on our website.',
   robots: { index: false, follow: true },
   openGraph: {
-    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'RHRLI — Robotic Hair Restoration of Long Island' }],
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Vinings Surgery — Vinings Surgery & Hair Restoration Center' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -17,8 +17,7 @@ const NAVY = '#0D1B35'
 const GOLD = '#F0B429'
 const BLUE = '#1B3498'
 const CREAM = '#F4F0EB'
-const LOGO_ICON = '/rhrli-icon.png'
-const LOGO_WORDMARK = '/rhrli-wordmark.svg'
+const LOGO_ICON = '/img/m/vsc-logo.webp'
 
 export default function CookiePolicy() {
   return (
@@ -34,12 +33,11 @@ export default function CookiePolicy() {
         zIndex: 100,
       }}>
         <a href="/" className="site-header-logo" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={LOGO_ICON} alt="RHRLI" height={40} />
-          <img className="logo-wordmark" src={LOGO_WORDMARK} alt="Robotic Hair Restoration of Long Island" />
+          <img src={LOGO_ICON} alt="Vinings Surgery & Hair Restoration Center" height={40} style={{ width: 'auto' }} />
         </a>
         <div className="site-header-actions" style={{ display: 'flex', alignItems: 'center' }}>
-          <a className="phone-link" href="tel:5162102369" style={{ color: '#fff', fontWeight: 600, textDecoration: 'none' }}>
-            516-210-2369
+          <a className="phone-link" href="tel:7706265316" style={{ color: '#fff', fontWeight: 600, textDecoration: 'none' }}>
+            770 626-5316
           </a>
           <a className="header-cta" href="/hair-restoration-google#evaluation" style={{
             background: GOLD,
@@ -77,15 +75,15 @@ export default function CookiePolicy() {
           color: '#444',
           lineHeight: 1.7,
         }}>
-          This Cookie Policy explains how RHRLI (&ldquo;we,&rdquo; &ldquo;us,&rdquo; and &ldquo;ours&rdquo;) uses cookies and similar technologies to recognize you when you visit our website at{' '}
-          <a href="https://more.rhrli.com" style={{ color: BLUE }}>https://more.rhrli.com</a>. It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+          This Cookie Policy explains how Vinings Surgery (&ldquo;we,&rdquo; &ldquo;us,&rdquo; and &ldquo;ours&rdquo;) uses cookies and similar technologies to recognize you when you visit our website at{' '}
+          <a href="https://more.colgrove.com" style={{ color: BLUE }}>https://more.colgrove.com</a>. It explains what these technologies are and why we use them, as well as your rights to control our use of them.
           <br /><br />
           In some cases, we may use cookies to collect personal information, or information that becomes personal information if we combine it with other information.
         </div>
 
         <Section id="what-are-cookies" title="What Are Cookies?">
           <p style={p}>Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners in order to make their websites work, or to work more efficiently, as well as to provide reporting information.</p>
-          <p style={p}>Cookies set by the website owner (in this case, <a href="https://more.rhrli.com" style={{ color: BLUE }}>https://more.rhrli.com</a>) are called &ldquo;first party cookies.&rdquo; Cookies set by parties other than the website owner are called &ldquo;third party cookies.&rdquo; Third-party cookies enable third-party features or functionality to be provided on or through the website (e.g., advertising, interactive content, and analytics). The parties that set these third-party cookies can recognize your computer both when it visits the website in question and also when it visits certain other websites.</p>
+          <p style={p}>Cookies set by the website owner (in this case, <a href="https://more.colgrove.com" style={{ color: BLUE }}>https://more.colgrove.com</a>) are called &ldquo;first party cookies.&rdquo; Cookies set by parties other than the website owner are called &ldquo;third party cookies.&rdquo; Third-party cookies enable third-party features or functionality to be provided on or through the website (e.g., advertising, interactive content, and analytics). The parties that set these third-party cookies can recognize your computer both when it visits the website in question and also when it visits certain other websites.</p>
         </Section>
 
         <Section id="why-cookies" title="Why Do We Use Cookies?">
@@ -150,7 +148,7 @@ export default function CookiePolicy() {
 
         <Section id="further-info" title="Where Can I Get Further Information?">
           <p style={p}>For more information on our data policies, see our <a href="/privacy-policy/" style={{ color: BLUE }}>Privacy Policy</a>.</p>
-          <p style={p}>If you have any questions about our use of cookies or other technologies, please email us at <a href="mailto:info@rhrli.com" style={{ color: BLUE }}>info@rhrli.com</a> or contact us by post:</p>
+          <p style={p}>If you have any questions about our use of cookies or other technologies, please email us at <a href="mailto:vsc@colgrove.com" style={{ color: BLUE }}>vsc@colgrove.com</a> or contact us by post:</p>
           <div style={{
             background: CREAM,
             border: '1px solid #e2e8f0',
@@ -158,10 +156,10 @@ export default function CookiePolicy() {
             padding: '24px 28px',
             marginTop: 16,
           }}>
-            <p style={{ fontWeight: 700, color: NAVY, marginBottom: 4 }}>RHRLI</p>
-            <p style={{ color: '#555', fontSize: '0.95rem' }}>167 Froehlich Farm Blvd</p>
-            <p style={{ color: '#555', fontSize: '0.95rem' }}>Woodbury, NY 11797</p>
-            <p style={{ color: '#555', fontSize: '0.95rem' }}><a href="tel:5162102369" style={{ color: BLUE }}>516-210-2369</a></p>
+            <p style={{ fontWeight: 700, color: NAVY, marginBottom: 4 }}>Vinings Surgery</p>
+            <p style={{ color: '#555', fontSize: '0.95rem' }}>1900 The Exchange SE, Bldg 300</p>
+            <p style={{ color: '#555', fontSize: '0.95rem' }}>Suite 300, Atlanta, GA 30339</p>
+            <p style={{ color: '#555', fontSize: '0.95rem' }}><a href="tel:7706265316" style={{ color: BLUE }}>770 626-5316</a></p>
           </div>
         </Section>
 
@@ -179,7 +177,7 @@ export default function CookiePolicy() {
         gap: 16,
         flexWrap: 'wrap',
       }}>
-        <span>&copy; 2026 RHRLI</span>
+        <span>&copy; 2026 Vinings Surgery</span>
         <a href="/privacy-policy/" style={{ color: 'rgba(255,255,255,0.5)', textDecoration: 'none' }}>PRIVACY POLICY</a>
         <a href="/cookie-policy/" style={{ color: 'rgba(255,255,255,0.5)', textDecoration: 'none' }}>COOKIE POLICY</a>
       </footer>

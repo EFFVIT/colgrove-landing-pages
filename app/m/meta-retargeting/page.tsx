@@ -1,19 +1,19 @@
 import type { Metadata } from 'next'
-import RhrliMetaRetargetingLP from '@/components/RhrliMetaRetargetingLP'
+import ViningsMetaRetargetingLP from '@/components/ViningsMetaRetargetingLP'
 
 export const metadata: Metadata = {
-  title: 'Still Considering Hair Restoration? | Questions Answered | RHRLI',
-  description: 'Worried about surgery or shaving? Get answers in 60 seconds. A private evaluation with RHRLI’s medical team on Long Island—no pressure, no obligation.',
+  title: 'Still Considering Hair Restoration? | Questions Answered | Vinings Surgery',
+  description: 'Worried about surgery or shaving? Get answers in 60 seconds. A private evaluation with Vinings Surgery & Hair Restoration Center in Atlanta—no pressure, no obligation.',
   robots: 'noindex, nofollow',
-  openGraph: { images: [{ url: 'https://more.rhrli.com/og/m-meta-retargeting.webp', width: 1200, height: 630, alt: 'RHRLI hair restoration consultation on Long Island' }] },
-  twitter: { card: 'summary_large_image', images: ['https://more.rhrli.com/og/m-meta-retargeting.webp'] },
+  openGraph: { images: [{ url: 'https://more.colgrove.com/og/m-meta-retargeting.webp', width: 1200, height: 630, alt: 'Vinings hair restoration consultation in Atlanta' }] },
+  twitter: { card: 'summary_large_image', images: ['https://more.colgrove.com/og/m-meta-retargeting.webp'] },
 }
 
 export default function MMetaRetargeting() {
   return (
-    <RhrliMetaRetargetingLP
-      heroFormId="xSajONHxzJemzr47uT4Y"
-      bottomFormId="4NPDLIvC6QWumboqRDIV"
+    <ViningsMetaRetargetingLP
+      heroFormId="UeVcM38whtesm02oF4CR"
+      bottomFormId="voi20qQZjPfxViSZZzom"
       variant="standard"
     />
   )

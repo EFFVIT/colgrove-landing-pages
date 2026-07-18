@@ -6,7 +6,8 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: '/c/',
+        // Paid-social consult/form pages — keep them out of the index.
+        disallow: '/m/',
       },
     ],
   }

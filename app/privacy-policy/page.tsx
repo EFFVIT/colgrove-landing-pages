@@ -1,11 +1,11 @@
-const OG_IMAGE = 'https://vitalitymmg.com/wp-content/uploads/2026/06/rhrli-og-featured.png'
+const OG_IMAGE = ''
 
 export const metadata = {
-  title: 'Privacy Policy | RHRLI',
-  description: 'RHRLI privacy policy — how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy | Vinings Surgery',
+  description: 'Vinings Surgery privacy policy — how we collect, use, and protect your personal information.',
   robots: { index: false, follow: true },
   openGraph: {
-    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'RHRLI — Robotic Hair Restoration of Long Island' }],
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Vinings Surgery — Vinings Surgery & Hair Restoration Center' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -17,8 +17,7 @@ const NAVY = '#0D1B35'
 const GOLD = '#F0B429'
 const BLUE = '#1B3498'
 const CREAM = '#F4F0EB'
-const LOGO_ICON = '/rhrli-icon.png'
-const LOGO_WORDMARK = '/rhrli-wordmark.svg'
+const LOGO_ICON = '/img/m/vsc-logo.webp'
 
 export default function PrivacyPolicy() {
   return (
@@ -34,12 +33,11 @@ export default function PrivacyPolicy() {
         zIndex: 100,
       }}>
         <a href="/" className="site-header-logo" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src={LOGO_ICON} alt="RHRLI" height={40} />
-          <img className="logo-wordmark" src={LOGO_WORDMARK} alt="Robotic Hair Restoration of Long Island" />
+          <img src={LOGO_ICON} alt="Vinings Surgery & Hair Restoration Center" height={40} style={{ width: 'auto' }} />
         </a>
         <div className="site-header-actions" style={{ display: 'flex', alignItems: 'center' }}>
-          <a className="phone-link" href="tel:5162102369" style={{ color: '#fff', fontWeight: 600, textDecoration: 'none' }}>
-            516-210-2369
+          <a className="phone-link" href="tel:7706265316" style={{ color: '#fff', fontWeight: 600, textDecoration: 'none' }}>
+            770 626-5316
           </a>
           <a className="header-cta" href="/hair-restoration-google#evaluation" style={{
             background: GOLD,
@@ -77,15 +75,15 @@ export default function PrivacyPolicy() {
           color: '#444',
           lineHeight: 1.7,
         }}>
-          Thank you for choosing to be part of our community at RHRLI (&ldquo;company,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regard to your personal information, please contact us at{' '}
-          <a href="mailto:info@rhrli.com" style={{ color: BLUE }}>info@rhrli.com</a>.
+          Thank you for choosing to be part of our community at Vinings Surgery (&ldquo;company,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our policy or our practices with regard to your personal information, please contact us at{' '}
+          <a href="mailto:vsc@colgrove.com" style={{ color: BLUE }}>vsc@colgrove.com</a>.
         </div>
 
         <p style={p}>
-          When you visit our website <a href="https://more.rhrli.com" style={{ color: BLUE }}>https://more.rhrli.com</a> and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we describe our privacy policy. We seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our websites and services.
+          When you visit our website <a href="https://more.colgrove.com" style={{ color: BLUE }}>https://more.colgrove.com</a> and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we describe our privacy policy. We seek to explain to you in the clearest way possible what information we collect, how we use it, and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy policy that you do not agree with, please discontinue use of our websites and services.
         </p>
         <p style={{ ...p, marginBottom: 40 }}>
-          This privacy policy applies to all information collected through our website (such as <a href="https://more.rhrli.com" style={{ color: BLUE }}>https://more.rhrli.com</a>) and/or any related services, sales, marketing, or events (we refer to them collectively in this privacy policy as the &ldquo;Websites&rdquo;).
+          This privacy policy applies to all information collected through our website (such as <a href="https://more.colgrove.com" style={{ color: BLUE }}>https://more.colgrove.com</a>) and/or any related services, sales, marketing, or events (we refer to them collectively in this privacy policy as the &ldquo;Websites&rdquo;).
         </p>
 
         {/* TOC */}
@@ -182,7 +180,7 @@ export default function PrivacyPolicy() {
 
         <Section id="section-7" title="7. Do We Collect Information From Minors?">
           <p style={inShort}>In Short: We do not knowingly collect data from or market to children under 18 years of age.</p>
-          <p style={p}>We do not knowingly solicit data from or market to children under 18 years of age. By using the Websites, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent&apos;s use of the Websites. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at <a href="mailto:info@rhrli.com" style={{ color: BLUE }}>info@rhrli.com</a>.</p>
+          <p style={p}>We do not knowingly solicit data from or market to children under 18 years of age. By using the Websites, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent&apos;s use of the Websites. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at <a href="mailto:vsc@colgrove.com" style={{ color: BLUE }}>vsc@colgrove.com</a>.</p>
         </Section>
 
         <Section id="section-8" title="8. What Are Your Privacy Rights?">
@@ -210,7 +208,7 @@ export default function PrivacyPolicy() {
         </Section>
 
         <Section id="section-11" title="11. How Can You Contact Us About This Policy?">
-          <p style={p}>If you have questions or comments about this policy, you may email us at <a href="mailto:info@rhrli.com" style={{ color: BLUE }}>info@rhrli.com</a> or contact us by post:</p>
+          <p style={p}>If you have questions or comments about this policy, you may email us at <a href="mailto:vsc@colgrove.com" style={{ color: BLUE }}>vsc@colgrove.com</a> or contact us by post:</p>
           <div style={{
             background: CREAM,
             border: '1px solid #e2e8f0',
@@ -219,12 +217,12 @@ export default function PrivacyPolicy() {
             marginTop: 16,
             marginBottom: 24,
           }}>
-            <p style={{ fontWeight: 700, color: NAVY, marginBottom: 4 }}>RHRLI</p>
-            <p style={{ color: '#555', fontSize: '0.95rem' }}>167 Froehlich Farm Blvd</p>
-            <p style={{ color: '#555', fontSize: '0.95rem' }}>Woodbury, NY 11797</p>
-            <p style={{ color: '#555', fontSize: '0.95rem' }}><a href="tel:5162102369" style={{ color: BLUE }}>516-210-2369</a></p>
+            <p style={{ fontWeight: 700, color: NAVY, marginBottom: 4 }}>Vinings Surgery</p>
+            <p style={{ color: '#555', fontSize: '0.95rem' }}>1900 The Exchange SE, Bldg 300</p>
+            <p style={{ color: '#555', fontSize: '0.95rem' }}>Suite 300, Atlanta, GA 30339</p>
+            <p style={{ color: '#555', fontSize: '0.95rem' }}><a href="tel:7706265316" style={{ color: BLUE }}>770 626-5316</a></p>
           </div>
-          <p style={p}>According to this Privacy Policy, you agree to share your personal data with our service. However, you still have the right to update, transfer, or delete it from us at any time. If you need further management of your data, please contact us at <a href="mailto:info@rhrli.com" style={{ color: BLUE }}>info@rhrli.com</a>.</p>
+          <p style={p}>According to this Privacy Policy, you agree to share your personal data with our service. However, you still have the right to update, transfer, or delete it from us at any time. If you need further management of your data, please contact us at <a href="mailto:vsc@colgrove.com" style={{ color: BLUE }}>vsc@colgrove.com</a>.</p>
         </Section>
 
       </main>
@@ -241,7 +239,7 @@ export default function PrivacyPolicy() {
         gap: 16,
         flexWrap: 'wrap',
       }}>
-        <span>&copy; 2026 RHRLI</span>
+        <span>&copy; 2026 Vinings Surgery</span>
         <a href="/privacy-policy/" style={{ color: 'rgba(255,255,255,0.5)', textDecoration: 'none' }}>PRIVACY POLICY</a>
         <a href="/cookie-policy/" style={{ color: 'rgba(255,255,255,0.5)', textDecoration: 'none' }}>COOKIE POLICY</a>
       </footer>

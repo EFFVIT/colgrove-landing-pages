@@ -9,8 +9,11 @@ import { useEffect } from 'react'
 // no numbers) leaves the page untouched.
 
 const DNI_ENDPOINT = 'https://control.effvit.com/api/dni/lease'
-const CLIENT = 'rhrli'
-const DEFAULT_DIGITS = '5162102369'
+const CLIENT = 'colgrove'
+// Vinings Hair static line (770 626-5316). The surgery pages use a separate
+// line (770 762-5465); DNI leasing no-ops until a 'colgrove' number pool is
+// configured in control, so the static numbers stay put by design.
+const DEFAULT_DIGITS = '7706265316'
 
 function formatDashes(e164: string): string {
   const d = e164.replace(/\D/g, '').replace(/^1/, '')
