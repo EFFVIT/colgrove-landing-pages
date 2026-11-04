@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ViningsMetaLP from '@/components/ViningsMetaLP'
+import GhlChatWidget, { VININGS_HAIR_CHAT_WIDGET_ID } from '@/components/GhlChatWidget'
 
 export const metadata: Metadata = {
   title: 'Hair Restoration Consultation | See If You’re a Candidate | Vinings Surgery',
@@ -11,9 +12,12 @@ export const metadata: Metadata = {
 
 export default function MMeta() {
   return (
-    <ViningsMetaLP
-      heroFormId="tHkGT4cjskn24IAON5fJ"
-      bottomFormId="MnH9PckFo8dGUnHDiR5X"
-    />
+    <>
+      <ViningsMetaLP
+        heroFormId="wKpEZK16ehrLRfIp9I9X"
+        bottomFormId="tho3N1dWh1rDdrhsa8kt"
+      />
+      <GhlChatWidget widgetId={VININGS_HAIR_CHAT_WIDGET_ID} />
+    </>
   )
 }

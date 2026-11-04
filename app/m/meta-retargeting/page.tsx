@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ViningsMetaRetargetingLP from '@/components/ViningsMetaRetargetingLP'
+import GhlChatWidget, { VININGS_HAIR_CHAT_WIDGET_ID } from '@/components/GhlChatWidget'
 
 export const metadata: Metadata = {
   title: 'Still Considering Hair Restoration? | Questions Answered | Vinings Surgery',
@@ -11,10 +12,13 @@ export const metadata: Metadata = {
 
 export default function MMetaRetargeting() {
   return (
-    <ViningsMetaRetargetingLP
-      heroFormId="UeVcM38whtesm02oF4CR"
-      bottomFormId="voi20qQZjPfxViSZZzom"
-      variant="standard"
-    />
+    <>
+      <ViningsMetaRetargetingLP
+        heroFormId="xxUwm9RZ9PRC9EwQ2PzK"
+        bottomFormId="AgGmU4HtsDYHnI8spXqb"
+        variant="standard"
+      />
+      <GhlChatWidget widgetId={VININGS_HAIR_CHAT_WIDGET_ID} />
+    </>
   )
 }

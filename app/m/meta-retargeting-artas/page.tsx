@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ViningsMetaRetargetingLP from '@/components/ViningsMetaRetargetingLP'
+import GhlChatWidget, { VININGS_HAIR_CHAT_WIDGET_ID } from '@/components/GhlChatWidget'
 
 // ARTAS is a device trademark (compliance FM5). Manufacturer attribution kept
 // (ARTAS® is a registered trademark of Venus Concept); no added device claims.
@@ -15,10 +16,13 @@ export const metadata: Metadata = {
 
 export default function MMetaRetargetingArtas() {
   return (
-    <ViningsMetaRetargetingLP
-      heroFormId="8ZztQajDv4OmHaMtv6mP"
-      bottomFormId="5fuQvxolhL3ZzKSVYCnn"
-      variant="artas"
-    />
+    <>
+      <ViningsMetaRetargetingLP
+        heroFormId="MmD729fQtlyqzUR7R6gL"
+        bottomFormId="FKDCFVPtTGmpSEAvEccg"
+        variant="artas"
+      />
+      <GhlChatWidget widgetId={VININGS_HAIR_CHAT_WIDGET_ID} />
+    </>
   )
 }
