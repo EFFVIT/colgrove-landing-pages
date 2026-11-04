@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ViningsFaceliftLP from '@/components/ViningsFaceliftLP'
+import GhlChatWidget, { VININGS_SURGERY_CHAT_WIDGET_ID } from '@/components/GhlChatWidget'
 
 // Plastic surgery (invasive). Layer 1 consult-first framing preserved; copy
 // verbatim from source. The source before/after patient-photo gallery is
@@ -13,5 +14,10 @@ export const metadata: Metadata = {
 }
 
 export default function MFacelift() {
-  return <ViningsFaceliftLP formId="qpsDVgAhAr0brB4kP2WQ" />
+  return (
+    <>
+      <ViningsFaceliftLP formId="qpsDVgAhAr0brB4kP2WQ" />
+      <GhlChatWidget widgetId={VININGS_SURGERY_CHAT_WIDGET_ID} />
+    </>
+  )
 }
