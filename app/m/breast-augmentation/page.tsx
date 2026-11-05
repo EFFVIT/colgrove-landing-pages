@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ViningsBreastAugLP from '@/components/ViningsBreastAugLP'
+import GhlChatWidget, { VININGS_SURGERY_CHAT_WIDGET_ID } from '@/components/GhlChatWidget'
 
 // Educational page (source neither advertises nor offers a surgical/invasive
 // procedure). Consult-first (Layer 1) by design. Copy verbatim from source.
@@ -12,5 +13,10 @@ export const metadata: Metadata = {
 }
 
 export default function MBreastAugmentation() {
-  return <ViningsBreastAugLP formId="le1CnI2cty1siTDoCA4m" />
+  return (
+    <>
+      <ViningsBreastAugLP formId="le1CnI2cty1siTDoCA4m" />
+      <GhlChatWidget widgetId={VININGS_SURGERY_CHAT_WIDGET_ID} />
+    </>
+  )
 }

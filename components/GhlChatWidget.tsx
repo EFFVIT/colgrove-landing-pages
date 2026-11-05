@@ -5,9 +5,10 @@ import Script from 'next/script'
 // chip does nothing unless this loader is on the page.
 //
 // Rendered per page, not in the root layout: the /m/ hair pages use the
-// Vinings Hair widget, and the surgery pages belong to a different RootLogic
-// location.
+// Vinings Hair widget and the surgery pages the Vinings Surgery widget, one
+// per RootLogic location.
 export const VININGS_HAIR_CHAT_WIDGET_ID = '68dd37c03756c981ae342c9a'
+export const VININGS_SURGERY_CHAT_WIDGET_ID = '684992bd6de4770f58e6f871'
 
 export default function GhlChatWidget({ widgetId }: { widgetId: string }) {
   return (
